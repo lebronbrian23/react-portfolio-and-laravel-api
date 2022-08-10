@@ -10,7 +10,7 @@ class Contact extends React.Component{
     }
     componentDidMount() {
         axios({
-            url:"http://ssekalegga-portfolio-backend.herokuapp.com/api/social-media-links",
+            url:"https://ssekalegga-portfolio-backend.herokuapp.com/api/social-media-links",
             method: "GET"
         }).then((response) =>{
             this.setState({

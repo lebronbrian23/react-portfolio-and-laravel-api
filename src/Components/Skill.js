@@ -10,7 +10,7 @@ class Skill extends React.Component{
     }
     componentDidMount() {
         axios({
-            url:"http://ssekalegga-portfolio-backend.herokuapp.com/api/skill-links",
+            url:"https://ssekalegga-portfolio-backend.herokuapp.com/api/skill-links",
             method:"GET"
         })
             .then( (response) => {
